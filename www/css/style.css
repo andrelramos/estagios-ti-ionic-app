@@ -1,0 +1,17 @@
+/* Empty. Add your own CSS if you like */
+.top-menu {
+    width: auto;
+    padding: 30px 0 0 0;
+    text-align: center;
+    background-color: RGBA(214, 192, 179, 0.25);
+    -webkit-box-shadow: inset 0px -7px 12px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px -7px 12px -14px rgba(0,0,0,0.75);
+    box-shadow: inset 0px -7px 12px -14px rgba(0,0,0,0.75);
+}
+
+.top-menu button {
+    top: 20px;
+    -webkit-box-shadow: 0px 8px 19px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 8px 19px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 8px 19px -10px rgba(0,0,0,0.75);
+}
