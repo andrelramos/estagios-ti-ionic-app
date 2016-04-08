@@ -1,111 +1,15 @@
 <ion-view id="jobs">
     <ion-pane>
         <ion-content>
-            <div class="card">
+            <div class="card" ng-repeat="job in jobs">
                 <div class="item item-divider">
-                    Estagio de TI - TIVIT
+                    {{ job.empresa[0] }}
                 </div>
                 <div class="item item-text-wrap">
-                    R$ 880 por mês. Área a ser trabalhada: Service Desk Salário : R$ 880 + Benefícios Escala de trabalho 6x1 - folgas intercalados aos finais de semana Não é necessário
+                    {{ job.descricao[0] }}
                 </div>
                 <div class="item item-divider">
-                    São Paulo
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="item item-divider">
-                    Estagio de TI - TIVIT
-                </div>
-                <div class="item item-text-wrap">
-                    R$ 880 por mês. Área a ser trabalhada: Service Desk Salário : R$ 880 + Benefícios Escala de trabalho 6x1 - folgas intercalados aos finais de semana Não é necessário
-                </div>
-                <div class="item item-divider">
-                    São Paulo
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="item item-divider">
-                    Estagio de TI - TIVIT
-                </div>
-                <div class="item item-text-wrap">
-                    R$ 880 por mês. Área a ser trabalhada: Service Desk Salário : R$ 880 + Benefícios Escala de trabalho 6x1 - folgas intercalados aos finais de semana Não é necessário
-                </div>
-                <div class="item item-divider">
-                    São Paulo
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="item item-divider">
-                    Estagio de TI - TIVIT
-                </div>
-                <div class="item item-text-wrap">
-                    R$ 880 por mês. Área a ser trabalhada: Service Desk Salário : R$ 880 + Benefícios Escala de trabalho 6x1 - folgas intercalados aos finais de semana Não é necessário
-                </div>
-                <div class="item item-divider">
-                    São Paulo
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="item item-divider">
-                    Estagio de TI - TIVIT
-                </div>
-                <div class="item item-text-wrap">
-                    R$ 880 por mês. Área a ser trabalhada: Service Desk Salário : R$ 880 + Benefícios Escala de trabalho 6x1 - folgas intercalados aos finais de semana Não é necessário
-                </div>
-                <div class="item item-divider">
-                    São Paulo
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="item item-divider">
-                    Estagio de TI - TIVIT
-                </div>
-                <div class="item item-text-wrap">
-                    R$ 880 por mês. Área a ser trabalhada: Service Desk Salário : R$ 880 + Benefícios Escala de trabalho 6x1 - folgas intercalados aos finais de semana Não é necessário
-                </div>
-                <div class="item item-divider">
-                    São Paulo
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="item item-divider">
-                    Estagio de TI - TIVIT
-                </div>
-                <div class="item item-text-wrap">
-                    R$ 880 por mês. Área a ser trabalhada: Service Desk Salário : R$ 880 + Benefícios Escala de trabalho 6x1 - folgas intercalados aos finais de semana Não é necessário
-                </div>
-                <div class="item item-divider">
-                    São Paulo
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="item item-divider">
-                    Estagio de TI - TIVIT
-                </div>
-                <div class="item item-text-wrap">
-                    R$ 880 por mês. Área a ser trabalhada: Service Desk Salário : R$ 880 + Benefícios Escala de trabalho 6x1 - folgas intercalados aos finais de semana Não é necessário
-                </div>
-                <div class="item item-divider">
-                    São Paulo
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="item item-divider">
-                    Estagio de TI - TIVIT
-                </div>
-                <div class="item item-text-wrap">
-                    R$ 880 por mês. Área a ser trabalhada: Service Desk Salário : R$ 880 + Benefícios Escala de trabalho 6x1 - folgas intercalados aos finais de semana Não é necessário
-                </div>
-                <div class="item item-divider">
-                    São Paulo
+                    {{ job.localizacao[0] }}
                 </div>
             </div>
         </ion-content>
